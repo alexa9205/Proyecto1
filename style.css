@@ -1,0 +1,213 @@
+/* RESETEAR CSS NAVEGADOR */
+* {
+  /* margin: 0; */
+  padding: 0;
+}
+
+/* DISEÑO HOME */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: auto;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.imagenLogo {
+  width: 70px;
+  height: 70px;
+}
+
+.fondo {
+  width: 95%;
+  height: 100px;
+  margin: auto;
+  background-image: url("./imagenes/background.jpg");
+}
+
+p {
+  color: red;
+}
+
+.numberD p {
+  color: blue;
+}
+/* .contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+.fecha {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  border-bottom: 2px solid black;
+}
+
+.numberD p {
+  font-weight: 800;
+}
+
+.colors p {
+  color: red;
+}
+
+.tamanio p {
+  font-size: 50px;
+}
+
+.dayM {
+  margin-right: 10px;
+}
+.course p {
+  font-weight: 700;
+}
+
+.botton {
+  align-self: center;
+}
+
+.fecha2 {
+  border-bottom: 0px solid black;
+} */
+
+/* .subtitulo {
+  margin: 200px;
+  border: 2px solid black;
+} */
+
+.fondo h1 {
+  text-align: center;
+  padding-top: 20px;
+  border: 2px solid orange;
+}
+
+/* footer div {
+  background-color: azure;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+footer .icono {
+  width: 20px;
+  height: 20px;
+} */
+/* DISEÑO CONTACTO */
+
+/* DISEÑO BOOTCAMP */
+/* .table_tr {
+  border: 2px solid black;
+} */
+
+.title2 {
+  text-align: center;
+  font-style: oblique;
+}
+table {
+  margin: auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  background-color: aquamarine;
+}
+
+tr {
+  background-color: rgb(194, 232, 155);
+}
+
+tr:hover {
+  background-color: bisque;
+  scale: 1.1;
+}
+
+td {
+  /* border-right: 1px solid green; */
+  border-bottom: 1px solid black;
+  padding: 4px;
+}
+th {
+  padding: 4px;
+}
+
+tfoot tr td {
+  text-align: center;
+  font-weight: 800;
+  font-style: oblique;
+  padding: 10px;
+  background-color: rgba(68, 68, 204, 0.823);
+}
+ol li {
+  list-style-type: upper-roman;
+}
+
+ol ul li {
+  list-style-type: circle;
+}
+.lista {
+  display: flex;
+  background-color: beige;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
+  /* border-radius: 30%; */
+  box-shadow: 15px 15px 15px 15px rgb(116, 116, 91);
+}
+
+dl {
+  width: 80%;
+  margin: auto;
+  background-color: cornsilk;
+  text-align: center;
+  /* border-radius: 30%; */
+}
+
+dl dt {
+  color: blue;
+  font-weight: 800;
+  padding-top: 10px;
+}
+
+/* formulario */
+form {
+  width: 60%;
+  margin: auto;
+}
+
+.dpers,
+.datos {
+  display: flex;
+  flex-direction: column;
+}
+
+.datos {
+  width: 50%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(230, 194, 127, 0.843);
+  border-top: solid 3px orange;
+}
+.footer div,
+.footer p {
+  align-self: center;
+}
+
+.footer {
+  margin-top: 470px;
+}
